@@ -5,12 +5,12 @@ package linkedlist;
 
 //A singly linked list node
 class Node {
- int data;
+ int value;
  Node next;
 
  // Constructor to initialize a new node with data
  Node(int x) {
-     this.data = x;
+     this.value = x;
      this.next = null;
  }
 }
@@ -47,7 +47,7 @@ class FindMiddlelElement {
          mid_index--;
      }
      // temp will be storing middle element
-     return head.data;
+     return head.value;
  }
 
  public static void main(String[] args) {
