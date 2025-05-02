@@ -16,6 +16,8 @@ public class FindFromLast {
         if (len < N)
             return -1;
         temp = head;
+
+        // Get the (len - N + 1)th node from the beginning
         for (i = 1; i < len - N + 1; i++)
             temp = temp.next;
 
