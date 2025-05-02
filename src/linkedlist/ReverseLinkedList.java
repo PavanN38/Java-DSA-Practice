@@ -15,7 +15,7 @@ public class ReverseLinkedList {
             while (temp.next != null) {
                 temp = temp.next;
             }
-            temp.next = new Node(value);
+           
         }
     }
 
